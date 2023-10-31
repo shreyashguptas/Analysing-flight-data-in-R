@@ -1,6 +1,6 @@
 install.packages("nycflights13")
 
-library(nycflights13)
+library(nycflights13) 2
 data("flights")
 
 library(ggplot2)
@@ -51,7 +51,7 @@ ggplot(flights, aes(x = reorder(carrier, -median_delay), y = dep_delay, fill = c
 
 library(ggplot2)
 
-# Calculate average delay by destination
+# Calculating average delay by destination
 avg_delay_by_dest <- flights %>%
   group_by(dest) %>%
   summarize(avg_delay = mean(arr_delay, na.rm = TRUE))
@@ -91,3 +91,5 @@ ggplot(top_airports, aes(x = reorder(dest, avg_delay), y = avg_delay, fill = avg
   theme_minimal() +
   theme(axis.text.y = element_text(size = 10),
         panel.grid.major.y = element_line(color = "gray90"))
+
+install.packages("rmarkdown")
