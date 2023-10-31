@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Data Analysis of a Major Metropolitan Area</title>
+    <style>
+        /* You can add custom styles here */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Flight Data Analysis of a Major Metropolitan Area</h1>
+    
+    <h2>Data Source:</h2>
+    <p>
+        For this analysis, flight data related to a major metropolitan area was used. The dataset was sourced from the NYCflights13 package, which provides details about flights departing from NYC in the year 2013.
+    </p>
+
+    <h2>Summary Statistics & Visual Insights:</h2>
+    
+    <h3>1. Distribution of Departure Delays by Airline Carrier:</h3>
+    <img src="Plot 1.png" alt="Distribution of Departure Delays by Airline Carrier">
+    <p>
+        From this visual, it is evident that:
+        <ul>
+            <li>Some carriers have more spread in their delays, indicating variability in their performance.</li>
+            <li>While certain carriers show tight clusters around the median, others have noticeable outliers, with extreme cases of departure delays.</li>
+        </ul>
+    </p>
+
+    <h3>2. Density of Flight Distance vs. Arrival Delay:</h3>
+    <img src="Plot 2.png" alt="Density of Flight Distance vs. Arrival Delay">
+    <p>
+        Insights derived:
+        <ul>
+            <li>Most of the flights have distances less than 2000 miles with arrival delays clustered below 100 minutes.</li>
+            <li>Flights that travel greater distances (more than 3000 miles) seem to have more variability in arrival delays.</li>
+        </ul>
+    </p>
+
+    <h3>3. Top 20 Airports with the Highest Average Delays:</h3>
+    <img src="Plot 3.png" alt="Top 20 Airports with the Highest Average Delays">
+    <p>
+        Key Takeaways:
+        <ul>
+            <li>CAE, TUL, and OKC are the top three airports with the highest average delays.</li>
+            <li>There is a gradual decrease in delay times as we move down the list, highlighting the disparity between the top delay-prone airports and the rest.</li>
+        </ul>
+    </p>
+
+    <h2>Storytelling & Open Questions:</h2>
+    <p>
+        The presented visuals provide a comprehensive understanding of flight delays, both from an airline carrier and airport perspective. Questions that arise include:
+        <ul>
+            <li>Which carriers should passengers potentially avoid if they're wary of delays?</li>
+            <li>Is there a correlation between flight distance and arrival delay?</li>
+            <li>Which airports are notorious for causing delays?</li>
+        </ul>
+        Such questions are crucial for stakeholders, from passengers to airline companies, to make informed decisions.
+    </p>
+
+    <h2>Advanced Insights (Hero Route):</h2>
+    <p>
+        To provide a more enriched analysis, the flight data could be merged with economic or demographic datasets. This would allow for insights such as:
+        <ul>
+            <li>Does the economic prosperity of an airport's location correlate with fewer flight delays?</li>
+            <li>Are densely populated metropolitan areas more prone to flight delays?</li>
+        </ul>
+        However, for the scope of this assignment, such advanced analysis has not been performed.
+    </p>
+
+    <h2>Conclusion:</h2>
+    <p>
+        This analysis provides a snapshot of flight delays in a major metropolitan area. By identifying carriers and airports with high delays, stakeholders can make better decisions, and relevant authorities can take corrective actions to improve efficiency.
+    </p>
+
+</body>
+
+</html>
