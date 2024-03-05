@@ -1,1 +1,1 @@
-[Analysing-flight-data-in-R](https://shreyashguptas.github.io/Analysing-flight-data-in-R/)
+[Click me to view the website](https://shreyashguptas.github.io/Analysing-flight-data-in-R/)
